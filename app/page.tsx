@@ -1,0 +1,432 @@
+export default function Home() {
+  return (
+    <main>
+
+      <nav className="nav">
+        <div className="logo">
+          William Roberts
+        </div>
+
+        <div className="links">
+          <a href="#about">About</a>
+          <a href="#teaching">Teaching</a>
+          <a href="#research">Research</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+
+
+      <section className="hero">
+
+        <div>
+          
+
+          <h1>
+            Science tutoring that builds understanding.
+          </h1>
+
+          <p className="subtitle">
+            Helping students master science through
+            curiosity, problem solving, and a deeper
+            understanding of how the world works.
+          </p>
+
+          <div className="hero-button">
+
+            <a className="button" href="#contact">
+              Contact Me
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <div className="photo">
+          <img
+            src="/william.jpeg"
+            alt="William Roberts"
+          />
+        </div>
+
+      </section>
+
+
+
+
+
+           <section id="about">
+
+        <h2>About Me</h2>
+
+        <p>
+          I graduated from Brown University Magna Cum Laude with a
+          specialization in chemical physics. My passion is helping students build confidence
+          in their scientific ability, expanding what they thought
+          themselves capable of.
+        </p>
+
+        <p>
+          Throughout my academic career, I have studied chemistry
+          from both theoretical and experimental perspectives.
+          My coursework and research have given me a strong
+          foundation in chemistry, physics, mathematics, and
+          scientific problem solving.
+        </p>
+
+        <p>
+          I believe the best science education comes from connecting
+          abstract concepts to physical reality. Whether a student
+          is learning their first chemistry concepts or tackling
+          advanced university material, my goal is to make difficult
+          ideas clear and approachable.
+        </p>
+
+        <p>
+          When not teaching or in the laboratory, you can find me
+          writing or reading poetry.
+        </p>
+
+      </section>
+
+
+
+
+      <section id="teaching">
+
+        <h2>Teaching</h2>
+
+        <div className="cards">
+
+
+          <div className="card">
+
+            <h3>
+              Head Teaching Assistant
+            </h3>
+
+            <p>
+              General Chemistry HTA supporting
+              undergraduate chemistry courses. Led weekly lectures and recitations
+              along with exam review sessions.  Worked with
+              students through problem solving,
+              content understanding, and exam strategies.
+            </p>
+
+          </div>
+
+
+
+          <div className="card">
+
+            <h3>
+              Tutor
+            </h3>
+
+            <p>
+              Worked with 40+ in both one-on-one and in groups settings
+              to improve conceptual understanding, develop
+              problem solving strategies, and build actual confidence
+              in science.
+            </p>
+
+          </div>
+
+
+
+          
+
+
+        </div>
+
+      </section>
+
+
+
+
+
+
+      <section id="subjects">
+
+        <h2>Subjects</h2>
+
+        <div className="cards">
+
+
+          <div className="card">
+
+            <h3>
+              Chemistry
+            </h3>
+
+            <p>
+              Honors Chemistry, AP Chemistry, General Chemistry (Undergraduate),
+              Organic Chemistry, Analytical Chemistry, Thermodyanmics (Graduate),
+              Quantum Mechanics (Graduate)
+            </p>
+
+          </div>
+
+
+
+          <div className="card">
+
+            <h3>
+              Physics
+            </h3>
+
+            <p>
+              General Physics: Mechanics, General Physics: Electricity and Magnetism,
+              Optics
+            </p>
+
+          </div>
+
+
+
+          <div className="card">
+
+            <h3>
+              Mathematics
+            </h3>
+
+            <p>
+              Algebra, Geometry, Calculus I-III, Statistics 
+            </p>
+
+          </div>
+
+
+        </div>
+
+      </section>
+
+
+
+
+
+
+      <section id="research">
+
+        <h2>Research</h2>
+
+
+        <p>
+          My research experience allows me to bring real
+          scientific expertise into my teaching. As a physical chemist,
+          I specialize in experimental design for biotechnologies.
+
+          My research culminated in an honors senior thesis:
+          {" "}
+          <a
+            href="/honors-thesis.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Ultrafast Raman Spectroscopy and Chemical Imaging
+          </a>
+        </p>
+
+
+
+        <div className="cards">
+
+
+          <div className="card">
+
+            <h3>
+              Ultrafast Raman Microscopy
+            </h3>
+
+            <p>
+              Designed and built an ultrafast stimulated Raman
+              microscopy system for chemical imaging and
+              molecular characterization.
+            </p>
+
+          </div>
+
+
+
+          <div className="card">
+
+            <h3>
+              Molecular Spectroscopy
+            </h3>
+
+            <p>
+              Studied molecular electronic structure through
+              photoelectron and photodetachment spectroscopy
+              of cryogenic molecular ions.
+            </p>
+
+          </div>
+
+
+
+      
+
+
+        </div>
+
+
+      </section>
+
+
+
+
+
+
+<section id="publications">
+
+  <h2>
+    Publications & Writing
+  </h2>
+
+
+  <div className="cards">
+
+
+    <div className="card">
+
+      <h3>
+        <a
+          href="https://pubs.aip.org/jcp/article/160/20/204305/3286118/Photoelectron-and-photodetachment-spectroscopy-of"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Photoelectron and Photodetachment Spectroscopy
+          of Cryogenically-Cooled 2-Anthrolide Anion
+        </a>
+      </h3>
+
+      <p>
+        Journal of Chemical Physics
+      </p>
+
+      <p>
+        Research contribution involving molecular
+        spectroscopy, electronic structure analysis,
+        and experimental characterization.
+      </p>
+
+    </div>
+
+
+
+
+    <div className="card">
+
+      <h3>
+        <a
+          href="https://www.chrysalism.art/issue-0/human-entropy"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Human Entropy
+        </a>
+      </h3>
+
+      <p>
+        Chrysalis Press — Issue 0
+      </p>
+
+      <p>
+        A creative exploration of entropy, identity,
+        and the relationship between scientific concepts
+        and human experience.
+      </p>
+
+    </div>
+
+
+  </div>
+
+</section>
+      <section>
+
+        <h2>
+          Student Testimonials
+        </h2>
+
+
+        <div className="testimonials">
+
+
+          <div className="testimonial">
+
+            <p>
+              "William is the most effective tutor I’ve had during my time at Brown, and has an innate pedagogical gift."
+            </p>
+
+          </div>
+
+
+
+          <div className="testimonial">
+
+            <p>
+              "I likely wouldn’t have passed the class without him. If he was able to help my grades, he’ll be able to help anyones."
+            </p>
+
+          </div>
+
+          <div className="testimonial">
+
+            <p>
+              "I can say with complete confidence that I would have not seen the same type of success without William's tutoring and guidance."
+            </p>
+
+          </div>
+
+          <div className="testimonial">
+
+            <p>
+              "He was extremely receptive and helpful with answering questions, and he made each of his lessons engaging, so I was never bored during our sessions."
+            </p>
+
+          </div>
+
+        </div>
+
+
+      </section>
+
+
+
+
+
+
+
+      <section id="contact" className="contact">
+
+        <h2>
+          Contact
+        </h2>
+
+
+        <div className="contact-links">
+
+          <a href="mailto:your@email.com">
+            william_roberts@brown.edu
+          </a>
+
+
+        
+
+          <a 
+            href="www.linkedin.com/in/william-roberts-4b3491275"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
+
+        </div>
+
+
+    </section>
+
+    </main>
+  );
+}
