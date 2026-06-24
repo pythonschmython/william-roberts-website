@@ -440,8 +440,8 @@ export default function Home() {
 
         <div className="contact-links">
 
-          <a href="mailto:your@email.com
-            william_roberts@brown.edu">
+          <a href="mailto:william_roberts@brown.edu">
+            william_roberts@brown.edu
           </a>
 
 
