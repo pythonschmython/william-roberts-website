@@ -61,7 +61,7 @@ export default function Home() {
 
         <p>
           I graduated from Brown University Magna Cum Laude with a
-          specialization in chemical physics. My passion is helping students build confidence
+          specialization in chemical physics. I am passionionate is helping students build confidence
           in their scientific ability, expanding what they thought
           themselves capable of.
         </p>
@@ -87,6 +87,15 @@ export default function Home() {
           writing or reading poetry.
         </p>
 
+        <a 
+          href="/William_Roberts_CV.pdf"
+          target="_blank"
+          className="cv-button"
+        >
+          Download CV
+        </a>
+
+
       </section>
 
 
@@ -94,7 +103,7 @@ export default function Home() {
 
       <section id="teaching">
 
-        <h2>Teaching</h2>
+        <h2>Teaching Experience</h2>
 
         <div className="cards">
 
@@ -106,9 +115,9 @@ export default function Home() {
             </h3>
 
             <p>
-              General Chemistry HTA supporting
-              undergraduate chemistry courses. Led weekly lectures and recitations
-              along with exam review sessions.  Worked with
+              I worked as the HTA for General Chemistry, Brown's largeest undergraduate STEM course, supporting
+              over 200 students. I led weekly lectures and recitations
+              along with in-depth, exam review sessions. I worked with
               students through problem solving,
               content understanding, and exam strategies.
             </p>
@@ -124,8 +133,8 @@ export default function Home() {
             </h3>
 
             <p>
-              Worked with 40+ in both one-on-one and in groups settings
-              to improve conceptual understanding, develop
+              I have worked as tutor for over 5 years and 40+ students, in both one-on-one and in groups settings.
+              Across a number of courses, I work to improve conceptual understanding, develop
               problem solving strategies, and build actual confidence
               in science.
             </p>
@@ -148,7 +157,7 @@ export default function Home() {
 
       <section id="subjects">
 
-        <h2>Subjects</h2>
+        <h2>Tutoring Subjects</h2>
 
         <div className="cards">
 
@@ -160,7 +169,7 @@ export default function Home() {
             </h3>
 
             <p>
-              Honors Chemistry, AP Chemistry, General Chemistry (Undergraduate),
+              <b> Chemistry, AP Chemistry, General Chemistry (Undergraduate)</b>,
               Organic Chemistry, Analytical Chemistry, Thermodyanmics (Graduate),
               Quantum Mechanics (Graduate)
             </p>
@@ -176,7 +185,7 @@ export default function Home() {
             </h3>
 
             <p>
-              General Physics: Mechanics, General Physics: Electricity and Magnetism,
+              <b>General Physics: Mechanics, General Physics: Electricity and Magnetism</b>,
               Optics
             </p>
 
@@ -210,23 +219,101 @@ export default function Home() {
 
         <h2>Research</h2>
 
-
         <p>
-          My research experience allows me to bring real
-          scientific expertise into my teaching. As a physical chemist,
-          I specialize in experimental design for biotechnologies.
+          My research experience allows me to bring real scientific
+          expertise into my teaching. As a physical chemist, I specialize
+          in spectroscopy, instrumentation, microscopy, and experimental
+          design.
 
-          My research culminated in an honors senior thesis:
+          <br /><br />
+
+          My undergraduate research culminated in an honors senior thesis:
+
           {" "}
+
           <a
             href="/honors-thesis.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Ultrafast Raman Spectroscopy and Chemical Imaging
+            <strong>
+              Ultrafast Raman Spectroscopy and Chemical Imaging
+            </strong>
           </a>
         </p>
 
+
+        <div className="research-card">
+
+          <div className="research-text">
+
+            <h3>
+              Ultrafast Raman Microscopy
+            </h3>
+
+            <p>
+              Designed and built an ultrafast stimulated Raman
+              microscopy system for chemical imaging and molecular
+              characterization. This work involved lasers, optics,
+              spectroscopy, microscope design, galvo scanning systems,
+              data acquisition hardware, and custom software development.
+            </p>
+
+          </div>
+
+          <div className="research-image">
+
+            <img
+              src="/Raman.jpg"
+              alt="Raman spectroscopy setup"
+            />
+
+          </div>
+
+        </div>
+
+
+
+        <div className="research-card">
+
+          <div className="research-text">
+
+            <h3>
+              Molecular Spectroscopy
+            </h3>
+
+            <p>
+              Investigated molecular electronic structure through
+              photoelectron and photodetachment spectroscopy of
+              cryogenically cooled molecular ions in the Lai-Sheng Wang
+              laboratory. This research resulted in a publication in
+              the Journal of Chemical Physics and involved high vacuum
+              instrumentation, ion trapping, laser spectroscopy, and
+              electronic structure analysis.
+            </p>
+
+          </div>
+
+          <div className="research-image">
+
+            <img
+              src="/PES.jpg"
+              alt="Photoelectron spectroscopy apparatus"
+            />
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+      <section id="publications">
+
+        <h2>
+          Publications & Writing
+        </h2>
 
 
         <div className="cards">
@@ -235,114 +322,60 @@ export default function Home() {
           <div className="card">
 
             <h3>
-              Ultrafast Raman Microscopy
+              <a
+                href="https://pubs.aip.org/jcp/article/160/20/204305/3286118/Photoelectron-and-photodetachment-spectroscopy-of"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Photoelectron and Photodetachment Spectroscopy
+                of Cryogenically-Cooled 2-Anthrolide Anion
+              </a>
             </h3>
 
             <p>
-              Designed and built an ultrafast stimulated Raman
-              microscopy system for chemical imaging and
-              molecular characterization.
+              Journal of Chemical Physics
+            </p>
+
+            <p>
+              Research contribution involving molecular
+              spectroscopy, electronic structure analysis,
+              and experimental characterization.
             </p>
 
           </div>
+
 
 
 
           <div className="card">
 
             <h3>
-              Molecular Spectroscopy
+              <a
+                href="https://www.chrysalism.art/issue-0/human-entropy"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Human Entropy
+              </a>
             </h3>
 
             <p>
-              Studied molecular electronic structure through
-              photoelectron and photodetachment spectroscopy
-              of cryogenic molecular ions.
+              Chrysalis Press — Issue 0
+            </p>
+
+            <p>
+              A creative exploration of entropy, identity,
+              and the relationship between scientific concepts
+              and human experience.
             </p>
 
           </div>
 
 
-
-      
-
-
         </div>
-
 
       </section>
 
-
-
-
-
-
-<section id="publications">
-
-  <h2>
-    Publications & Writing
-  </h2>
-
-
-  <div className="cards">
-
-
-    <div className="card">
-
-      <h3>
-        <a
-          href="https://pubs.aip.org/jcp/article/160/20/204305/3286118/Photoelectron-and-photodetachment-spectroscopy-of"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Photoelectron and Photodetachment Spectroscopy
-          of Cryogenically-Cooled 2-Anthrolide Anion
-        </a>
-      </h3>
-
-      <p>
-        Journal of Chemical Physics
-      </p>
-
-      <p>
-        Research contribution involving molecular
-        spectroscopy, electronic structure analysis,
-        and experimental characterization.
-      </p>
-
-    </div>
-
-
-
-
-    <div className="card">
-
-      <h3>
-        <a
-          href="https://www.chrysalism.art/issue-0/human-entropy"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Human Entropy
-        </a>
-      </h3>
-
-      <p>
-        Chrysalis Press — Issue 0
-      </p>
-
-      <p>
-        A creative exploration of entropy, identity,
-        and the relationship between scientific concepts
-        and human experience.
-      </p>
-
-    </div>
-
-
-  </div>
-
-</section>
       <section>
 
         <h2>
@@ -415,7 +448,7 @@ export default function Home() {
         
 
           <a 
-            href="www.linkedin.com/in/william-roberts-4b3491275"
+            href="https://www.linkedin.com/in/william-roberts-4b3491275"
             target="_blank"
             rel="noopener noreferrer"
           >
