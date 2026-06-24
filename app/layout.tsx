@@ -7,7 +7,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "William Roberts | Chemistry Tutor",
+  title: "William Roberts Tutoring",
   description:
     "Chemistry tutoring from a Brown University chemistry graduate.",
 };
