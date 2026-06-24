@@ -61,7 +61,7 @@ export default function Home() {
 
         <p>
           I graduated from Brown University Magna Cum Laude with a
-          specialization in chemical physics. I am passionionate is helping students build confidence
+          specialization in chemical physics. I am passionate is helping students build confidence
           in their scientific ability, expanding what they thought
           themselves capable of.
         </p>
@@ -115,7 +115,7 @@ export default function Home() {
             </h3>
 
             <p>
-              I worked as the HTA for General Chemistry, Brown's largeest undergraduate STEM course, supporting
+              I worked as the HTA for General Chemistry, Brown's largest undergraduate STEM course, supporting
               over 200 students. I led weekly lectures and recitations
               along with in-depth, exam review sessions. I worked with
               students through problem solving,
