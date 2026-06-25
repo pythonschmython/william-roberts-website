@@ -61,7 +61,7 @@ export default function Home() {
 
         <p>
           I graduated from Brown University Magna Cum Laude with a
-          specialization in chemical physics. I am passionate is helping students build confidence
+          bachelors of science in Chemistry. I am passionate about helping students build confidence
           in their scientific ability, expanding what they thought
           themselves capable of.
         </p>
@@ -84,7 +84,7 @@ export default function Home() {
 
         <p>
           When not teaching or in the laboratory, you can find me
-          writing or reading poetry.
+          writing or reading poetry, building my lamp collection, or planning tomorrows outfit.
         </p>
 
         <a 
@@ -133,7 +133,7 @@ export default function Home() {
             </h3>
 
             <p>
-              I have worked as tutor for over 5 years and 40+ students, in both one-on-one and in groups settings.
+              I have worked as tutor for over 5 years and 40+ students, in both one-on-one and in group settings.
               Across a number of courses, I work to improve conceptual understanding, develop
               problem solving strategies, and build actual confidence
               in science.
@@ -170,7 +170,7 @@ export default function Home() {
 
             <p>
               <b> Chemistry, AP Chemistry, General Chemistry (Undergraduate)</b>,
-              Organic Chemistry, Analytical Chemistry, Thermodyanmics (Graduate),
+              Organic Chemistry, Analytical Chemistry, Thermodynamics (Graduate),
               Quantum Mechanics (Graduate)
             </p>
 
@@ -399,7 +399,7 @@ export default function Home() {
           <div className="testimonial">
 
             <p>
-              "I likely wouldn’t have passed the class without him. If he was able to help my grades, he’ll be able to help anyones."
+              "I likely wouldn’t have passed the class without him. If he was able to help my grades, he’ll be able to help anyone's."
             </p>
 
           </div>
