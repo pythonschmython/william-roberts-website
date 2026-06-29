@@ -345,7 +345,6 @@ p {
 
 .testimonial {
   padding: 1.5rem 0;
-  border-bottom: 1px solid #e5e7eb;
 }
 
 .testimonial:last-child {
@@ -356,7 +355,6 @@ p {
   margin: 0;
   font-size: 3 rem;
   line-height: 1.7;
-  color: #0f172a;
   font-style: italic;
 }
 
