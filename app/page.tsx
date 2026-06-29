@@ -382,9 +382,7 @@ Raman Scanning Microscopy</i>
             </p>
 
             <p>
-              A creative exploration of entropy, identity,
-              and the relationship between scientific concepts
-              and human experience.
+              A creative exploration of entropy and identity.
             </p>
 
           </div>
