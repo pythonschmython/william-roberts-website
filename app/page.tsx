@@ -71,7 +71,7 @@ export default function Home() {
         </p>
 
         <p>
-          When I'm not teaching or in the laboratory, you can find me writing or reading poetry, building my lamp collection, or planning tomorrow&apos;s outfit.
+          When I'm not teaching or in the laboratory, you can find me writing and reading poetry, building my lamp collection, or planning tomorrow's outfit.
         </p>
 
         <div className="button-center">
@@ -254,23 +254,10 @@ export default function Home() {
           My research experience allows me to bring real scientific
           expertise into my teaching. As a physical chemist, I specialize
           in spectroscopy, instrumentation, microscopy, and experimental
-          design.
+          design. My work at Brown culminated in a Senior Honors thesis: <i>On the Method Development and
+Experimental Design of Ultrafast Stimulated
+Raman Scanning Microscopy</i>
 
-          <br /><br />
-
-          My undergraduate research culminated in an honors senior thesis:
-
-          {" "}
-
-          <a
-            href="/honors-thesis.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <strong>
-              Ultrafast Raman Spectroscopy and Chemical Imaging
-            </strong>
-          </a>
         </p>
 
 
