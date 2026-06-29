@@ -6,10 +6,25 @@ const inter = Inter({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "William Roberts Tutoring",
-  description:
-    "Chemistry tutoring from a Brown University chemistry graduate.",
+  description: "Tutoring that builds confidence",
+  openGraph: {
+    title: "William Roberts",
+    description: "Tutoring that builds confidence",
+    url: "https://www.wrscience.com/",
+    siteName: "William Roberts",
+    images: [
+      {
+        url: "/linkedin-preview.png",
+        width: 1200,
+        height: 630,
+        alt: "Tutoring that builds confidence",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
