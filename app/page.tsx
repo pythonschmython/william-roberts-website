@@ -196,7 +196,7 @@ export default function Home() {
           <div className="card">
 
             <h3>
-              Chemistry
+              Chemistry (Main Subject)
             </h3>
 
             <p>
