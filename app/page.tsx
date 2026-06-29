@@ -22,7 +22,7 @@ export default function Home() {
           
 
           <h1>
-            Tutoring that builds confidence. 
+            Tutoring that builds confidence 
           </h1>
 
           <p className="subtitle">
