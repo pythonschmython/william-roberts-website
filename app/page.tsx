@@ -30,10 +30,6 @@ export default function Home() {
             physics, and mathematics through personalized one-on-one instruction.
           </p>
 
-          <p className="hero-quote">
-            — <em>"An innate pedagogical gift."</em>
-          </p>
-
           <div className="hero-button">
 
             <a className="button" href="#contact">
