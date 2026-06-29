@@ -162,6 +162,14 @@ h1 {
   object-fit: cover;
 }
 
+.hero-quote {
+  margin-top: 0.8rem;
+  margin-left: 2.5rem;      /* "tab" it to the right */
+  font-size: 1rem;
+  color: #64748b;
+  font-style: italic;
+  font-weight: 400;
+}
 /* ---------- General Sections ---------- */
 
 
