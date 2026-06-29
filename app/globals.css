@@ -72,102 +72,95 @@ main {
 
 /* ---------- Hero ---------- */
 
-
 .hero {
-  display:grid;
-  grid-template-columns:1.2fr .8fr;
-  gap:60px;
-  align-items:center;
-  margin-bottom:90px;
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 80px;
+  align-items: center;
+  margin-bottom: 100px;
+  position: relative;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background: #dbeafe;
+  border-radius: 50%;
+  filter: blur(100px);
+  right: -100px;
+  top: -120px;
+  z-index: -1;
+}
+
+.hero-text {
+  max-width: 650px;
+}
+
+.tag {
+  color: #1d4ed8;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+h1 {
+  font-size: 56px;
+  line-height: 1.08;
+  letter-spacing: -2px;
+  margin: 20px 0;
+  color: #0f172a;
+}
+
+.subtitle {
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+  line-height: 1.75;
+  color: #475569;
+}
+
+.testimonial {
+  margin-top: 2rem;
+  font-size: 1.15rem;
+  font-style: italic;
+  color: #64748b;
 }
 
 .hero-button {
-  text-align:center;
-  margin-top:25px;
+  margin-top: 2.5rem;
 }
-
-.hero {
-  position:relative;
-}
-
-
-.hero::before {
-  content:"";
-  position:absolute;
-  width:500px;
-  height:500px;
-  background:#dbeafe;
-  border-radius:50%;
-  filter:blur(100px);
-  right:0;
-  top:-100px;
-  z-index:-1;
-}
-
-
-.tag {
-  color:#1d4ed8;
-  font-size:14px;
-  font-weight:700;
-  letter-spacing:1.5px;
-}
-
-
-h1 {
-  font-size:54px;
-  line-height:1.1;
-  letter-spacing:-2px;
-  margin:20px 0;
-  color:#0f172a;
-}
-
-
-.subtitle {
-  font-size:22px;
-  color:#334155;
-  max-width:600px;
-  line-height:1.6;
-}
-
 
 .button {
-  display:inline-flex;
-  align-items:center;
-  justify-content:center;
-  margin-top:30px;
-  padding:14px 34px;
-  background:#0f172a;
-  color:white;
-  border-radius:8px;
-  text-decoration:none;
-  font-size:17px;
-  font-weight:600;
-  transition:0.2s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 34px;
+  background: #0f172a;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 600;
+  transition: all 0.2s ease;
 }
-
 
 .button:hover {
-  background:#1d4ed8;
-  transform:translateY(-2px);
+  background: #1d4ed8;
+  transform: translateY(-2px);
 }
-
-
 
 .photo {
-  height:430px;
-  border-radius:22px;
-  overflow:hidden;
+  height: 430px;
+  border-radius: 22px;
+  overflow: hidden;
 }
-
 
 .photo img {
-  width:100%;
-  height:100%;
-  object-fit:cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
-
-
-
 
 /* ---------- General Sections ---------- */
 
