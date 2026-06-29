@@ -76,7 +76,7 @@ export default function Home() {
 
         <div className="button-center">
           <a href="/William_Roberts_CV.pdf" className="button" target="_blank" rel="noopener noreferrer">
-            Download CV
+            View CV
           </a>
         </div>
 
