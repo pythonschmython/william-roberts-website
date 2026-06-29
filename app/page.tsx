@@ -22,13 +22,14 @@ export default function Home() {
           
 
           <h1>
-            Science tutoring that builds understanding.
+            Tutoring that builds confidence. 
           </h1>
 
           <p className="subtitle">
-            Helping students master science through
-            curiosity, problem solving, and a deeper
-            understanding of how the world works.
+            Brown University chemistry graduate helping students master chemistry, 
+            physics, and mathematics through personalized one-on-one instruction.
+            <p>
+            <i>"an innate pedagogical gift"</i></p>
           </p>
 
           <div className="hero-button">
