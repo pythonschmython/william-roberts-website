@@ -29,7 +29,7 @@ export default function Home() {
             Ivy League grad helping students master chemistry, 
             physics, and mathematics through personalized one-on-one instruction.
           </p>
-          
+
           <p className="hero-quote">
             — <em>"An innate pedagogical gift."</em>
           </p>
@@ -101,7 +101,54 @@ export default function Home() {
 
       </section>
 
+      <section>
 
+        <h2>
+          Student Testimonials
+        </h2>
+
+
+        <div className="testimonials">
+
+
+          <div className="testimonial">
+
+            <p>
+              "William is the most effective tutor I’ve had during my time at Brown, and has an innate pedagogical gift."
+            </p>
+
+          </div>
+
+
+
+          <div className="testimonial">
+
+            <p>
+              "I likely wouldn’t have passed the class without him. If he was able to help my grades, he’ll be able to help anyone's."
+            </p>
+
+          </div>
+
+          <div className="testimonial">
+
+            <p>
+              "I can say with complete confidence that I would have not seen the same type of success without William's tutoring and guidance."
+            </p>
+
+          </div>
+
+          <div className="testimonial">
+
+            <p>
+              "He was extremely receptive and helpful with answering questions, and he made each of his lessons engaging, so I was never bored during our sessions."
+            </p>
+
+          </div>
+
+        </div>
+
+
+      </section>
 
 
       <section id="teaching">
@@ -379,54 +426,7 @@ export default function Home() {
 
       </section>
 
-      <section>
-
-        <h2>
-          Student Testimonials
-        </h2>
-
-
-        <div className="testimonials">
-
-
-          <div className="testimonial">
-
-            <p>
-              "William is the most effective tutor I’ve had during my time at Brown, and has an innate pedagogical gift."
-            </p>
-
-          </div>
-
-
-
-          <div className="testimonial">
-
-            <p>
-              "I likely wouldn’t have passed the class without him. If he was able to help my grades, he’ll be able to help anyone's."
-            </p>
-
-          </div>
-
-          <div className="testimonial">
-
-            <p>
-              "I can say with complete confidence that I would have not seen the same type of success without William's tutoring and guidance."
-            </p>
-
-          </div>
-
-          <div className="testimonial">
-
-            <p>
-              "He was extremely receptive and helpful with answering questions, and he made each of his lessons engaging, so I was never bored during our sessions."
-            </p>
-
-          </div>
-
-        </div>
-
-
-      </section>
+      
 
 
 

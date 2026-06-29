@@ -354,18 +354,14 @@ p {
 
 .testimonial p {
   margin: 0;
-  font-size: 1.15rem;
+  font-size: 3 rem;
   line-height: 1.7;
   color: #0f172a;
   font-style: italic;
 }
 
 .testimonial span {
-  display: block;
   margin-top: 0.75rem;
-  color: #64748b;
-  font-size: 0.95rem;
-  font-style: normal;
 }
 
 
