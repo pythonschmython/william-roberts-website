@@ -339,26 +339,33 @@ p {
 /* Testimonials */
 
 .testimonials {
-  display:flex;
-  flex-direction:column;
-  gap:30px;
+  max-width: 750px;
+  margin: 0 auto;
 }
-
 
 .testimonial {
-  background:#f8fafc;
-  border-left:5px solid #2563eb;
-  border-right:5px solid #2563eb;
-  padding:40px;
-  border-radius:16px;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid #e5e7eb;
 }
 
+.testimonial:last-child {
+  border-bottom: none;
+}
 
 .testimonial p {
-  font-size:26px;
-  line-height:1.5;
-  color:#0f172a;
-  font-weight:500;
+  margin: 0;
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: #0f172a;
+  font-style: italic;
+}
+
+.testimonial span {
+  display: block;
+  margin-top: 0.75rem;
+  color: #64748b;
+  font-size: 0.95rem;
+  font-style: normal;
 }
 
 
