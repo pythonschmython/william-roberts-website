@@ -29,9 +29,11 @@ export default function Home() {
             Ivy League grad helping students master chemistry, 
             physics, and mathematics through personalized one-on-one instruction.
           </p>
-          <p className="testimonial">
-            <em>"An innate pedagogical gift."</em>
+          
+          <p className="hero-quote">
+            — <em>"An innate pedagogical gift."</em>
           </p>
+
           <div className="hero-button">
 
             <a className="button" href="#contact">
