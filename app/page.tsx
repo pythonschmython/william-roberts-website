@@ -59,7 +59,7 @@ export default function Home() {
         <h2>About Me</h2>
 
         <p>
-          I graduated <em>magna cum laude</em> from Brown University with a Bachelor of Science in Chemistry. Alongside my research in experimental chemistry—which led to a publication in the <em>Journal of Chemical Physics</em>—I discovered a passion for teaching and helping students build confidence in science.
+          I graduated <em>magna cum laude</em> from Brown University with a Bachelor of Science in Chemistry. Alongside my research, which led to a publication in the <em>Journal of Chemical Physics</em>, I discovered a passion for teaching and helping students build confidence in science.
         </p>
 
         <p>
