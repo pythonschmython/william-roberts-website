@@ -120,12 +120,6 @@ h1 {
   color: #475569;
 }
 
-.testimonial {
-  margin-top: 2rem;
-  font-size: 3 rem;
-  font-style: italic;
-  color: #64748b;
-}
 
 .hero-button {
   text-align: center;
@@ -336,32 +330,37 @@ p {
   font-size:18px;
 }
 
-/* Testimonials */
+
+/* ---------- Testimonials ---------- */
 
 .testimonials {
-  max-width: 750px;
+  max-width: 850px;
   margin: 0 auto;
 }
 
 .testimonial {
-  padding: 0.5rem 0;
+  margin-bottom: 1.25rem;
 }
 
 .testimonial:last-child {
-  border-bottom: none;
+  margin-bottom: 0;
 }
 
 .testimonial p {
   margin: 0;
-  font-size: 3 rem;
-  line-height: 1.7;
+  font-size: 1.6rem;
+  line-height: 1.45;
   font-style: italic;
+  color: #0f172a;
 }
 
 .testimonial span {
-  margin-top: 0.2rem;
+  display: block;
+  margin-top: 0.3rem;
+  margin-left: 1rem;
+  font-size: 1rem;
+  color: #64748b;
 }
-
 
 /* ---------- Timeline ---------- */
 
