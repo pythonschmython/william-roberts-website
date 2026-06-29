@@ -59,41 +59,26 @@ export default function Home() {
         <h2>About Me</h2>
 
         <p>
-          I graduated from Brown University Magna Cum Laude with a
-          bachelors of science in Chemistry. I am passionate about helping students build confidence
-          in their scientific ability, expanding what they thought
-          themselves capable of.
+          I graduated <em>magna cum laude</em> from Brown University with a Bachelor of Science in Chemistry. Alongside my research in experimental chemistry—which led to a publication in the <em>Journal of Chemical Physics</em>—I discovered a passion for teaching and helping students build confidence in science.
         </p>
 
         <p>
-          Throughout my academic career, I have studied chemistry
-          from both theoretical and experimental perspectives.
-          My coursework and research have given me a strong
-          foundation in chemistry, physics, mathematics, and
-          scientific problem solving.
+          Over the past five years, I have worked with more than 40 high school and college students in chemistry, physics, and mathematics. I also served as the Head Teaching Assistant for Brown University's largest STEM course, leading weekly review sessions, practice lectures, and exam preparation.
         </p>
 
         <p>
-          I believe the best science education comes from connecting
-          abstract concepts to physical reality. Whether a student
-          is learning their first chemistry concepts or tackling
-          advanced university material, my goal is to make difficult
-          ideas clear and approachable.
+          Throughout my academic career, I have studied chemistry from both theoretical and experimental perspectives. I believe the best science education comes from connecting abstract concepts to physical reality. Whether a student is learning their first chemistry concepts or tackling advanced university material, my goal is to make difficult ideas clear, approachable, and even enjoyable.
         </p>
 
         <p>
-          When not teaching or in the laboratory, you can find me
-          writing or reading poetry, building my lamp collection, or planning tomorrows outfit.
+          When I'm not teaching or in the laboratory, you can find me writing or reading poetry, building my lamp collection, or planning tomorrow&apos;s outfit.
         </p>
 
-        <a 
-          href="/William_Roberts_CV.pdf"
-          target="_blank"
-          className="cv-button"
-        >
-          Download CV
-        </a>
-
+        <div className="button-center">
+          <a href="/William_Roberts_CV.pdf" className="button" target="_blank" rel="noopener noreferrer">
+            Download CV
+          </a>
+        </div>
 
       </section>
 

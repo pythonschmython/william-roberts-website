@@ -375,7 +375,11 @@ p {
   margin-bottom:35px;
 }
 
-
+.button-center {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
 
 /* ---------- Contact ---------- */
 
