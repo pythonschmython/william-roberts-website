@@ -154,33 +154,36 @@ h1 {
 /* ---------- Credentials ---------- */
 
 .proof {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 18px;
-  margin-bottom: 90px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 18px;
 }
 
-.proof div {
-  background: white;
-  padding: 28px 20px;
-  border-radius: 18px;
-  border: 1px solid #dbeafe;
-  text-align: center;
-  box-shadow: 0 8px 25px rgba(30, 64, 175, 0.06);
+.proof-bubble {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 9px 16px;
+  border-radius: 999px;
+  background: #eef5ff;
+  border: 1px solid #d9e8fa;
+  color: #183b63;
+  white-space: nowrap;
 }
 
-.proof strong {
-  display: block;
-  font-size: 30px;
-  line-height: 1.2;
-  color: #0f172a;
-  margin-bottom: 6px;
+.proof-bubble strong {
+  font-size: 16px;
+  font-weight: 700;
 }
 
-.proof span {
-  display: block;
-  font-size: 15px;
-  color: #64748b;
+.proof-bubble span {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.location {
+  margin-top: 18px;
 }
 
 

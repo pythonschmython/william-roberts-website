@@ -33,10 +33,23 @@ export default function Home() {
             Brown University graduate offering chemistry, physics, and mathematics tutoring for high school
             and college students.
           </p>
+          
+          <div className="proof">
+            <div className="proof-bubble">
+              <strong>5+</strong>
+              <span>years tutoring</span>
+            </div>
+
+            <div className="proof-bubble">
+              <strong>40+</strong>
+              <span>students taught</span>
+            </div>
+          </div>
 
           <p className="location">
             In-person in NYC · Online anywhere
           </p>
+
 
           <div className="hero-button">
             <a className="button" href="#contact">
