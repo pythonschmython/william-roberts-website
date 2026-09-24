@@ -30,10 +30,8 @@ export default function Home() {
           </h1>
 
           <p className="subtitle">
-            Chemistry, physics, and mathematics tutoring for high school
-            and college students. I’m a Brown University chemistry graduate
-            with 5+ years of teaching experience and a focus on making
-            difficult concepts clear and approachable.
+            Brown University graduate offering chemistry, physics, and mathematics tutoring for high school
+            and college students.
           </p>
 
           <p className="location">
@@ -42,7 +40,7 @@ export default function Home() {
 
           <div className="hero-button">
             <a className="button" href="#contact">
-              Book a Free Consultation
+              Contact Me
             </a>
           </div>
 
@@ -72,17 +70,6 @@ export default function Home() {
           <strong>40+</strong>
           <span>Students taught</span>
         </div>
-
-        <div>
-          <strong>Brown</strong>
-          <span>University chemistry graduate</span>
-        </div>
-
-        <div>
-          <strong>200+</strong>
-          <span>Students taught as Head TA</span>
-        </div>
-
       </section>
 
 
@@ -90,7 +77,7 @@ export default function Home() {
 
       <section>
 
-        <h2>What Students Say</h2>
+        <h2>Student Testimonials</h2>
 
         <div className="testimonials">
 
@@ -133,41 +120,6 @@ export default function Home() {
       </section>
 
 
-      {/* ---------- Who I Work With ---------- */}
-
-      <section>
-
-        <h2>Who I Work With</h2>
-
-        <div className="cards">
-
-          <div className="card">
-            <h3>High School Students</h3>
-            <p>
-              AP Chemistry, physics, mathematics, homework support,
-              conceptual understanding, and exam preparation.
-            </p>
-          </div>
-
-          <div className="card">
-            <h3>College Students</h3>
-            <p>
-              General chemistry, organic chemistry, physics, calculus,
-              and other undergraduate STEM courses.
-            </p>
-          </div>
-
-          <div className="card">
-            <h3>Exam Preparation</h3>
-            <p>
-              Structured review, targeted problem-solving practice,
-              and help identifying and addressing gaps in understanding.
-            </p>
-          </div>
-
-        </div>
-
-      </section>
 
 
       {/* ---------- Subjects ---------- */}
@@ -179,7 +131,7 @@ export default function Home() {
         <div className="cards">
 
           <div className="card">
-            <h3>Chemistry</h3>
+            <h3>Chemistry - Main Subject</h3>
             <p>
               <b>AP Chemistry</b>, <b>General Chemistry</b>,
               Organic Chemistry, and Analytical Chemistry.
@@ -209,48 +161,7 @@ export default function Home() {
 
       </section>
 
-
-      {/* ---------- Teaching ---------- */}
-
-      <section id="teaching">
-
-        <h2>How I Teach</h2>
-
-        <p>
-          My approach is straightforward: understand the idea first,
-          then learn how to solve the problem. I focus on connecting
-          abstract concepts to physical intuition so students aren't
-          just memorizing procedures—they understand why things work.
-        </p>
-
-        <div className="cards">
-
-          <div className="card">
-            <h3>Head Teaching Assistant</h3>
-            <p>
-              I served as Head Teaching Assistant for General Chemistry,
-              Brown University's largest undergraduate STEM course,
-              supporting more than 200 students through lectures,
-              recitations, problem-solving sessions, and exam reviews.
-            </p>
-          </div>
-
-          <div className="card">
-            <h3>Private Tutor</h3>
-            <p>
-              I have worked with more than 40 high school and college
-              students over the past five years, both individually and
-              in groups. I focus on conceptual understanding, problem
-              solving, and building genuine confidence in science.
-            </p>
-          </div>
-
-        </div>
-
-      </section>
-
-
-      {/* ---------- About ---------- */}
+{/* ---------- About ---------- */}
 
       <section id="about">
 
@@ -290,6 +201,41 @@ export default function Home() {
         </div>
 
       </section>
+
+      {/* ---------- Teaching ---------- */}
+
+      <section id="teaching">
+
+        <h2>Teaching Experience</h2>
+
+        <div className="cards">
+
+          <div className="card">
+            <h3>Head Teaching Assistant</h3>
+            <p>
+              I served as Head Teaching Assistant for General Chemistry,
+              Brown University's largest undergraduate STEM course,
+              supporting more than 200 students through lectures,
+              recitations, problem-solving sessions, and exam reviews.
+            </p>
+          </div>
+
+          <div className="card">
+            <h3>Private Tutor</h3>
+            <p>
+              I have worked with more than 40 high school and college
+              students over the past five years, both individually and
+              in groups. I focus on conceptual understanding, problem
+              solving, and building genuine confidence in science.
+            </p>
+          </div>
+
+        </div>
+
+      </section>
+
+
+      
 
 
       {/* ---------- Research ---------- */}
@@ -423,13 +369,7 @@ export default function Home() {
 
       <section id="contact" className="contact">
 
-        <h2>Let's Work Together</h2>
-
-        <p>
-          Looking for help with chemistry, physics, or mathematics?
-          Tell me a little about what you're working on and I'll get
-          back to you.
-        </p>
+        <h2>Contact Me</h2>
 
         <div className="contact-links">
 
