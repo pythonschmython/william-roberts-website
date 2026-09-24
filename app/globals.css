@@ -115,8 +115,9 @@ h1 {
 }
 
 .hero-button {
-  text-align: left;
   margin-top: 28px;
+  display: flex;
+  justify-content: center;
 }
 
 .button {

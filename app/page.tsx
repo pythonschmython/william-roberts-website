@@ -26,14 +26,14 @@ export default function Home() {
         <div className="hero-content">
 
           <h1>
-            Private Science Tutoring
+            NYC Science Tutoring
           </h1>
 
           <p className="subtitle">
             Brown University graduate offering chemistry, physics, and mathematics tutoring for high school
             and college students.
           </p>
-          
+
           <div className="proof">
             <div className="proof-bubble">
               <strong>5+</strong>
@@ -67,22 +67,6 @@ export default function Home() {
           />
         </div>
 
-      </section>
-
-
-      {/* ---------- Credentials ---------- */}
-
-      <section className="proof">
-
-        <div>
-          <strong>5+</strong>
-          <span>Years tutoring</span>
-        </div>
-
-        <div>
-          <strong>40+</strong>
-          <span>Students taught</span>
-        </div>
       </section>
 
 
