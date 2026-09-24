@@ -167,20 +167,22 @@ h1 {
   gap: 6px;
   padding: 9px 16px;
   border-radius: 999px;
-  background: #2563eb;
-  border: 1px solid #2563eb;
-  color: white;
+  background: #f1f6fc;
+  border: 1px solid #e2eaf3;
+  color: #475569;
   white-space: nowrap;
 }
 
 .proof-bubble strong {
   font-size: 16px;
   font-weight: 700;
+  color: #334155;
 }
 
 .proof-bubble span {
   font-size: 13px;
   font-weight: 500;
+  color: #64748b;
 }
 
 .location {
