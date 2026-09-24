@@ -167,9 +167,9 @@ h1 {
   gap: 6px;
   padding: 9px 16px;
   border-radius: 999px;
-  background: #eef5ff;
-  border: 1px solid #d9e8fa;
-  color: #183b63;
+  background: #2563eb;
+  border: 1px solid #2563eb;
+  color: white;
   white-space: nowrap;
 }
 
@@ -185,6 +185,8 @@ h1 {
 
 .location {
   margin-top: 18px;
+  display: flex;
+  justify-content: center;
 }
 
 
